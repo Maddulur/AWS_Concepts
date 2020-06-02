@@ -70,9 +70,12 @@ Redeploy our API gateway resource
 Goto POSTMAN Method it won't show output as we expected now, it require some authentication
 ![10](https://user-images.githubusercontent.com/63221837/83551542-16517980-a526-11ea-8171-5c5800eea9c9.png)
 With in POSTMAN app click on Autheraization and select OAuth2.0 and then click on Generate Access Token
-
-
-
-
+![1](https://user-images.githubusercontent.com/63221837/83553275-9a0c6580-a528-11ea-87df-5c6f2ff53529.png)
+Grab Domain name, ClientID, Client Secret and scope from Cognito and give here and then click on Request Token
+![2](https://user-images.githubusercontent.com/63221837/83553279-9aa4fc00-a528-11ea-9937-12b4351241d6.png)![1](https://user-images.githubusercontent.com/63221837/83553275-9a0c6580-a528-11ea-87df-5c6f2ff53529.png)
+Copy Access Token
+![3](https://user-images.githubusercontent.com/63221837/83553280-9b3d9280-a528-11ea-8aef-7e97e61a398d.png)
+Open new tab and select Headers, keep key and values as shown above and click on send. we can see output now
+Finally we are getting output with cognito authoraization
 
 
