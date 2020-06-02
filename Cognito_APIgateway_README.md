@@ -25,5 +25,23 @@ click on App client settings, select client credentials check box and then allow
 
 API Server:
 -----------
-Goto API Server 
+Goto API Server and create new API
+
+Click on Build with in REST API
+
+Give API name and Click on create API
+
+Click on Action and select Create Resource
+
+Give Resource name and then click on Create Resource
+
+Click on Action and then click on Create Method
+Create GET and POST Methods
+
+Click on GET methods, select Mock and then click on Save
+
+Click on Integration Responce
+
+Give above details and then click on save
+
 
