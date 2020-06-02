@@ -26,22 +26,53 @@ click on App client settings, select client credentials check box and then allow
 API Server:
 -----------
 Goto API Server and create new API
-
+![1](https://user-images.githubusercontent.com/63221837/83548744-e3a58200-a521-11ea-8b07-b2893124abb8.png)
 Click on Build with in REST API
-
+![2](https://user-images.githubusercontent.com/63221837/83548732-e0aa9180-a521-11ea-83be-679ba94ea3c8.png)
 Give API name and Click on create API
-
+![3](https://user-images.githubusercontent.com/63221837/83548736-e1dbbe80-a521-11ea-92d7-ffa06247ed32.png)
 Click on Action and select Create Resource
-
+![4](https://user-images.githubusercontent.com/63221837/83548737-e1dbbe80-a521-11ea-902a-4668992a7d6d.png)
 Give Resource name and then click on Create Resource
-
+![5](https://user-images.githubusercontent.com/63221837/83548738-e2745500-a521-11ea-9920-656fdec0b9b0.png)
 Click on Action and then click on Create Method
 Create GET and POST Methods
-
+![6](https://user-images.githubusercontent.com/63221837/83548740-e30ceb80-a521-11ea-8412-099909f7593c.png)
 Click on GET methods, select Mock and then click on Save
-
+![7](https://user-images.githubusercontent.com/63221837/83548742-e30ceb80-a521-11ea-8a12-105c1504e315.png)
 Click on Integration Responce
-
+![8](https://user-images.githubusercontent.com/63221837/83548743-e3a58200-a521-11ea-8cae-f5fbb89fcf23.png)
 Give above details and then click on save
+Deploy API:
+------
+![1](https://user-images.githubusercontent.com/63221837/83550056-e1442780-a523-11ea-840e-73001e8e4f83.png)
+Click on Action and select Deploy API
+![2](https://user-images.githubusercontent.com/63221837/83550060-e2755480-a523-11ea-8e6f-6d2ac8d729b1.png)
+Give details as above and click on Deploy
+![3](https://user-images.githubusercontent.com/63221837/83550062-e2755480-a523-11ea-8110-e1078a379679.png)![4](https://user-images.githubusercontent.com/63221837/83550065-e30deb00-a523-11ea-8403-3b3a3514e300.png)
+Copy API key and give in POSTMAN APP and check output
+![4](https://user-images.githubusercontent.com/63221837/83550065-e30deb00-a523-11ea-8403-3b3a3514e300.png)
+Open POSTMAN App and select GET method and give URL which we get in API gateway deployment
+Click on Send
+
+Now we need to Cognito Authentication for URL in API gateway
+--------------------------
+![5](https://user-images.githubusercontent.com/63221837/83551529-13ef1f80-a526-11ea-8147-44103072ed02.png)
+Click Authorizers and click on create new Authorizers
+![6](https://user-images.githubusercontent.com/63221837/83551533-1487b600-a526-11ea-8b5c-5f5f64d908f7.png)
+Give details and click on create
+![7](https://user-images.githubusercontent.com/63221837/83551535-15204c80-a526-11ea-9821-068d2ec6e327.png)
+Goto Resources in API gateway and select GET method and click on Method Request
+![8](https://user-images.githubusercontent.com/63221837/83551538-15b8e300-a526-11ea-81f7-282ed2e71e41.png)
+Add Autheraization for API methods as show in above
+Redeploy our API gateway resource
+![9](https://user-images.githubusercontent.com/63221837/83551540-15b8e300-a526-11ea-9427-1ba3fc588542.png)
+Goto POSTMAN Method it won't show output as we expected now, it require some authentication
+![10](https://user-images.githubusercontent.com/63221837/83551542-16517980-a526-11ea-8171-5c5800eea9c9.png)
+With in POSTMAN app click on Autheraization and select OAuth2.0 and then click on Generate Access Token
+
+
+
+
 
 
