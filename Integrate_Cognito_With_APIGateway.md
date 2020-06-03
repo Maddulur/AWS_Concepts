@@ -35,11 +35,11 @@ Now we are going to integrate Cognito with API Gateway:
 ---------------
 Open API Gateway and Create Authorizer
 
-
+![1](https://user-images.githubusercontent.com/63221837/83596729-05832100-a583-11ea-94ca-35f3095b4b0b.png)
 
 Give data as show in above figure and click on create 
 
-
+![2](https://user-images.githubusercontent.com/63221837/83596730-06b44e00-a583-11ea-85ae-03a59fced279.png)
 
 Goto GET Method and Click on Method to attach authentication to our API
 
@@ -50,7 +50,25 @@ Give atherization and Oath scope and then save
 Once again Deploy our API.
 Goto POSTMAN APP and check we can get output or not
 
+![3](https://user-images.githubusercontent.com/63221837/83596731-074ce480-a583-11ea-8d48-e0cfc7f08f62.png)
 
 See here we get some message like "Unauthorized"
 
+![7](https://user-images.githubusercontent.com/63221837/83596900-7a565b00-a583-11ea-8d48-f0c3ff14b929.png)
+
 If we want to see proper output we need to generate some token with App Client id and App client secret
+
+![4](https://user-images.githubusercontent.com/63221837/83596732-074ce480-a583-11ea-9687-9152c7c7d94b.png)
+
+Give details of domain name, App Client id, App client secret and scope then click on Generate token
+we need to give "/oauth2/token" alone with domain name
+Now Give Token with Header and check whether we are getting expected output or not
+
+![6](https://user-images.githubusercontent.com/63221837/83596736-087e1180-a583-11ea-98c1-543b1f3420ff.png)
+
+
+
+
+
+
+
