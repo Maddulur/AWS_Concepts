@@ -22,3 +22,27 @@ Goto Function Code and paste below code and save the function
 
 Click Test button and just accept the popup for test config. Then, we get the number generated and the logs:
 ![4](https://user-images.githubusercontent.com/63221837/83593486-7d991900-a57a-11ea-97f1-8d8bc4903047.png)
+
+API Gateway - adding trigger:
+--------
+Goto API Server and create new API
+![1](https://user-images.githubusercontent.com/63221837/83548744-e3a58200-a521-11ea-8b07-b2893124abb8.png)
+
+Click on Build with in REST API
+
+![1](https://user-images.githubusercontent.com/63221837/83594326-95719c80-a57c-11ea-8f6a-389043ede85a.png)
+
+Give API name and Click on create API
+
+![2](https://user-images.githubusercontent.com/63221837/83594328-96a2c980-a57c-11ea-9efa-a2ed7aae1e19.png)
+
+Now we'll create a new resource and method:
+
+
+![3](https://user-images.githubusercontent.com/63221837/83594330-96a2c980-a57c-11ea-9255-9ddb19673ea5.png)
+![4](https://user-images.githubusercontent.com/63221837/83594331-973b6000-a57c-11ea-9425-647532f3a661.png)
+![5](https://user-images.githubusercontent.com/63221837/83594333-973b6000-a57c-11ea-86d4-ef821e71c4e0.png)
+![6](https://user-images.githubusercontent.com/63221837/83594336-97d3f680-a57c-11ea-88db-52ec276dbf1b.png)
+![7](https://user-images.githubusercontent.com/63221837/83594337-986c8d00-a57c-11ea-914e-344ebafd6968.png)
+![8](https://user-images.githubusercontent.com/63221837/83594338-99052380-a57c-11ea-8002-bbdd89285b29.png)
+![9](https://user-images.githubusercontent.com/63221837/83594339-99052380-a57c-11ea-9467-76198ce20d68.png)
