@@ -38,11 +38,28 @@ Give API name and Click on create API
 
 Now we'll create a new resource and method:
 
-
 ![3](https://user-images.githubusercontent.com/63221837/83594330-96a2c980-a57c-11ea-9255-9ddb19673ea5.png)
+
+create a GET method:
+
 ![4](https://user-images.githubusercontent.com/63221837/83594331-973b6000-a57c-11ea-9425-647532f3a661.png)
+
+Integrate Lambda Function with API Gateway as show above
+
 ![5](https://user-images.githubusercontent.com/63221837/83594333-973b6000-a57c-11ea-86d4-ef821e71c4e0.png)
+
+Now we need to deploy our API, for this we need to select Action and then click on Deploy API
+
 ![6](https://user-images.githubusercontent.com/63221837/83594336-97d3f680-a57c-11ea-88db-52ec276dbf1b.png)
+
+Create name for New Stage of deployment
+
 ![7](https://user-images.githubusercontent.com/63221837/83594337-986c8d00-a57c-11ea-914e-344ebafd6968.png)
+
+Here we get some Deployment URL. Copy this URL and check in POSTMAN app with our API: /randomnumber
+
 ![8](https://user-images.githubusercontent.com/63221837/83594338-99052380-a57c-11ea-8002-bbdd89285b29.png)
+
+Open POSTMAN APP and select method as GET and Give URL with out API"
+
 ![9](https://user-images.githubusercontent.com/63221837/83594339-99052380-a57c-11ea-9467-76198ce20d68.png)
