@@ -33,4 +33,24 @@ Select Client Credentials and then select Allow custom scopes then save
 
 Now we are going to integrate Cognito with API Gateway:
 ---------------
+Open API Gateway and Create Authorizer
 
+
+
+Give data as show in above figure and click on create 
+
+
+
+Goto GET Method and Click on Method to attach authentication to our API
+
+
+
+
+Give atherization and Oath scope and then save
+Once again Deploy our API.
+Goto POSTMAN APP and check we can get output or not
+
+
+See here we get some message like "Unauthorized"
+
+If we want to see proper output we need to generate some token with App Client id and App client secret
